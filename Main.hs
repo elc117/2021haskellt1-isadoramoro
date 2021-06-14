@@ -37,8 +37,8 @@ genRects n = replicate n ((x,y), w, h)
         w = 150
         h = 150
 -------------------------------------------------------------------------------
-svgElements :: a -> [(Rect, String, String)] -> String
-svgElements func elements = concat $ map func elements
+svgElements :: [(Rect, String, String)] -> String
+svgElements elements = concat $ map svgRect elements
 
 --teste:
 --concat(map svgRect (zipWith3 (,,) (genRects 2) (map rotation (angRotation 2)) (map strkStyle (newPalette 2)))) --OK
@@ -47,7 +47,7 @@ main :: IO()
 main = do 
   writeFile "trab1.svg" $ svgstrs
   where svgstrs = svgBegin w h ++ part1 ++ svgEnd
-        part1 = svgElements svgRect (zipWith3 (,,) rects transform style)
+        part1 = svgElements (zipWith3 (,,) rects transform style)
         rects = genRects nrects
         transform = (map rotation (angRotation nrects))
         style = (map strkStyle palette)

@@ -24,15 +24,6 @@ angRotation :: Int -> [(Int,Int,Int)]
 angRotation n = [(ang, 400, 300) | ang <- take n(iterate (+a) a)]
   where a = 20
 -------------------------------------------------------------------------------
-strkStyle :: (Int,Int,Int, Float) -> String
-strkStyle (r,g,b,o) = printf "stroke:rgb(%d,%d,%d);fill-opacity:%f;" r g b o
-
-newPalette :: Int -> [(Int,Int,Int, Float)]
-newPalette n = take n [((div a 2), a, i, o)| i <- take n(iterate (+b) 0)]
-  where a = 255
-        b = 25
-        o = 0.0
--------------------------------------------------------------------------------
 genRects :: Int -> [Rect]
 genRects n = replicate n ((x,y), w, h)
   where x = 400
@@ -47,11 +38,6 @@ svgEllipse :: (Ellipse, String) -> String
 svgEllipse (((cx,cy), rx, ry), style) =
   printf "<ellipse cx='%f' cy='%f' rx='%f' ry='%f' style='%s' />\n" cx cy rx ry style
 
-elPalette :: Int -> [(Int,Int,Int,Float)]
-elPalette n = take n [(a+i, a+2*i, a+3*i, o) | i <- take n(iterate (+10) a)]
-  where a = 6
-        o = 0.0
-
 genEllip :: Int -> [Ellipse]
 genEllip n = replicate n ((cx,cy), rx, ry)
   where cx = 400
@@ -61,6 +47,20 @@ genEllip n = replicate n ((cx,cy), rx, ry)
 
 svgElements1 :: [((Point,Float,Float), String)] -> String
 svgElements1 elements = concat $ map svgEllipse elements
+-------------------------------------------------------------------------------
+strkStyle :: (Int,Int,Int, Float) -> String
+strkStyle (r,g,b,o) = printf "stroke:rgb(%d,%d,%d);fill-opacity:%f;" r g b o
+
+bPalette :: Int -> [(Int,Int,Int,Float)]
+bPalette n = take n [(a+i, a+2*i, a+3*i, o) | i <- take n(iterate (+a) 10)]
+  where a = 60
+        o = 0.0
+
+newPalette :: Int -> [(Int,Int,Int, Float)]
+newPalette n = take n [((div a 2), a, i, o)| i <- take n(iterate (+b) b)]
+  where a = 255
+        b = 25
+        o = 0.0
 -------------------------------------------------------------------------------
 main :: IO()
 main = do 
@@ -75,7 +75,7 @@ main = do
 
         part2 = svgElements1 (zipWith (,) ellip (map strkStyle color))
         ellip = genEllip nellip
-        color = elPalette nellip
+        color = bPalette nellip
         nellip = 3
 
         (w,h) = (800,600)

@@ -1,20 +1,23 @@
 <svg width='800.00' height='600.00' xmlns='http://www.w3.org/2000/svg'>
-<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(20,400,300)' style='stroke:rgb(24,18,6);fill-opacity:0.0;' />
-<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(40,400,300)' style='stroke:rgb(84,58,6);fill-opacity:0.0;' />
-<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(60,400,300)' style='stroke:rgb(144,98,6);fill-opacity:0.0;' />
-<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(80,400,300)' style='stroke:rgb(204,138,6);fill-opacity:0.0;' />
-<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(100,400,300)' style='stroke:rgb(264,178,6);fill-opacity:0.0;' />
-<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(120,400,300)' style='stroke:rgb(324,218,6);fill-opacity:0.0;' />
-<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(140,400,300)' style='stroke:rgb(384,258,6);fill-opacity:0.0;' />
-<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(160,400,300)' style='stroke:rgb(444,298,6);fill-opacity:0.0;' />
-<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(180,400,300)' style='stroke:rgb(504,338,6);fill-opacity:0.0;' />
-<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(200,400,300)' style='stroke:rgb(564,378,6);fill-opacity:0.0;' />
-<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(220,400,300)' style='stroke:rgb(624,418,6);fill-opacity:0.0;' />
-<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(240,400,300)' style='stroke:rgb(684,458,6);fill-opacity:0.0;' />
-<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(260,400,300)' style='stroke:rgb(744,498,6);fill-opacity:0.0;' />
-<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(280,400,300)' style='stroke:rgb(804,538,6);fill-opacity:0.0;' />
-<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(300,400,300)' style='stroke:rgb(864,578,6);fill-opacity:0.0;' />
-<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(320,400,300)' style='stroke:rgb(924,618,6);fill-opacity:0.0;' />
-<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(340,400,300)' style='stroke:rgb(984,658,6);fill-opacity:0.0;' />
-<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(360,400,300)' style='stroke:rgb(1044,698,6);fill-opacity:0.0;' />
+<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(20,400,300)' style='stroke:rgb(127,255,0);fill-opacity:0.0;' />
+<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(40,400,300)' style='stroke:rgb(127,255,25);fill-opacity:0.0;' />
+<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(60,400,300)' style='stroke:rgb(127,255,50);fill-opacity:0.0;' />
+<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(80,400,300)' style='stroke:rgb(127,255,75);fill-opacity:0.0;' />
+<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(100,400,300)' style='stroke:rgb(127,255,100);fill-opacity:0.0;' />
+<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(120,400,300)' style='stroke:rgb(127,255,125);fill-opacity:0.0;' />
+<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(140,400,300)' style='stroke:rgb(127,255,150);fill-opacity:0.0;' />
+<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(160,400,300)' style='stroke:rgb(127,255,175);fill-opacity:0.0;' />
+<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(180,400,300)' style='stroke:rgb(127,255,200);fill-opacity:0.0;' />
+<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(200,400,300)' style='stroke:rgb(127,255,225);fill-opacity:0.0;' />
+<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(220,400,300)' style='stroke:rgb(127,255,250);fill-opacity:0.0;' />
+<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(240,400,300)' style='stroke:rgb(127,255,275);fill-opacity:0.0;' />
+<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(260,400,300)' style='stroke:rgb(127,255,300);fill-opacity:0.0;' />
+<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(280,400,300)' style='stroke:rgb(127,255,325);fill-opacity:0.0;' />
+<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(300,400,300)' style='stroke:rgb(127,255,350);fill-opacity:0.0;' />
+<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(320,400,300)' style='stroke:rgb(127,255,375);fill-opacity:0.0;' />
+<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(340,400,300)' style='stroke:rgb(127,255,400);fill-opacity:0.0;' />
+<rect x='400.0' y='300.0' width='150.0' height='150.0' transform='rotate(360,400,300)' style='stroke:rgb(127,255,425);fill-opacity:0.0;' />
+<ellipse cx='400.0' cy='300.0' rx='212.0' ry='212.0' style='stroke:rgb(12,18,24);fill-opacity:0.0;' />
+<ellipse cx='400.0' cy='300.0' rx='212.0' ry='212.0' style='stroke:rgb(22,38,54);fill-opacity:0.0;' />
+<ellipse cx='400.0' cy='300.0' rx='212.0' ry='212.0' style='stroke:rgb(32,58,84);fill-opacity:0.0;' />
 </svg>
